@@ -1,36 +1,24 @@
-ZAHNKLAR-WEBSITE – KURZANLEITUNG
+ZAHNKLAR WEBSITE V2
 
-Enthaltene Dateien:
-- index.html       Startseite
-- impressum.html   Impressumsseite
-- style.css        Gestaltung
+Enthalten:
+- index.html
+- impressum.html
+- datenschutz.html
+- style.css
+- 404.html
 
-Kostenlos mit GitHub Pages veröffentlichen:
+So lädst du die neue Version hoch:
+1. ZIP-Datei entpacken.
+2. In GitHub im Repository auf "Code" gehen.
+3. "Add file" > "Upload files" wählen.
+4. Alle entpackten Einzeldateien hochladen.
+5. Unten auf "Commit changes" klicken.
+6. 1–3 Minuten warten und die Website neu laden.
 
-1. Erstelle ein kostenloses Konto auf github.com.
-2. Klicke oben rechts auf das Pluszeichen und dann auf "New repository".
-3. Repository-Name: zahnklar-website
-4. Wähle "Public" und klicke auf "Create repository".
-5. Wähle "uploading an existing file".
-6. Lade index.html, impressum.html und style.css hoch.
-7. Klicke auf "Commit changes".
-8. Öffne im Repository "Settings" > "Pages".
-9. Unter "Build and deployment":
-   Source: Deploy from a branch
-   Branch: main
-   Ordner: / (root)
-10. Speichern.
-
-Nach kurzer Verarbeitung erscheint dort deine kostenlose Adresse:
-https://DEIN-GITHUB-NAME.github.io/zahnklar-website/
-
-Direkter Impressumslink:
-https://DEIN-GITHUB-NAME.github.io/zahnklar-website/impressum.html
-
-WICHTIG:
-- Die Platzhalter für YouTube, Instagram und TikTok auf der Startseite sind
-  noch keine anklickbaren Links. Sie können später in index.html ersetzt werden.
-- Diese Website verwendet keine Cookies, kein Tracking, keine Formulare und
-  keine extern geladenen Schriftarten.
-- Rechtstexte sollten bei Änderungen deiner Tätigkeit oder Kontaktdaten erneut
-  geprüft werden.
+Wichtig:
+- Nicht die ZIP-Datei selbst hochladen.
+- index.html, impressum.html und style.css ersetzen die alten Dateien.
+- datenschutz.html und 404.html werden neu ergänzt.
+- Die Social-Media-Karten enthalten noch keine direkten Profil-Links.
+- Die Website nutzt aktuell kein eigenes Tracking, keine Formulare und keine eingebetteten Videos.
+- Rechtstexte bei Änderungen der Website oder Tätigkeit erneut prüfen.
