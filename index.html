@@ -1,45 +1,159 @@
 <!doctype html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Zahnklar erklärt Zahnmedizin verständlich, ruhig und ohne Fachchinesisch.">
-  <meta name="theme-color" content="#dff2ff">
-  <title>Zahnklar – Zahnmedizin leicht erklärt</title>
-  <link rel="stylesheet" href="style.css">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#cfeeff">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+
+<meta name="description" content="Zahnklar erklärt Zahnmedizin verständlich, ruhig und ohne Fachchinesisch.">
+<title>Zahnklar – Zahnmedizin leicht erklärt</title>
 </head>
 <body>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+
 <header class="site-header">
-  <a class="brand" href="index.html"><span class="brand-icon">🦷</span><span><strong>Zahnklar</strong><small>Zahnmedizin leicht erklärt</small></span></a>
-  <nav><a href="#ueber">Über Zahnklar</a><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav>
+  <a class="brand" href="index.html" aria-label="Zahnklar Startseite">
+    <img src="assets/zahnklar-logo-header.jpg" alt="Zahnklar – Zahnmedizin leicht erklärt">
+  </a>
+  <button class="menu-button" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+  <nav class="main-nav" aria-label="Hauptnavigation">
+    <a href="index.html#ueber">Über Zahnklar</a>
+    <a href="index.html#kanaele">Kanäle</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+  </nav>
 </header>
-<main>
+
+
+<main id="inhalt">
   <section class="hero">
-    <div>
+    <div class="hero-copy">
       <p class="eyebrow">Zahnmedizin leicht erklärt</p>
       <h1>Wissen, das den Zahnarztbesuch leichter macht.</h1>
-      <p class="lead">Verständliche Erklärungen rund um Zähne, Behandlungen und Mundgesundheit – ruhig, anschaulich und ohne unnötiges Fachchinesisch.</p>
-      <div class="actions"><a class="button primary" href="#kanaele">Zu den Kanälen</a><a class="button secondary" href="#ueber">Mehr erfahren</a></div>
+      <p class="lead">
+        Verständliche Erklärungen rund um Zähne, Behandlungen und Mundgesundheit –
+        ruhig, anschaulich und ohne unnötiges Fachchinesisch.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#kanaele">Zu den Kanälen</a>
+        <a class="button secondary" href="#ueber">Mehr erfahren</a>
+      </div>
     </div>
-    <div class="hero-card"><div class="tooth">🦷</div><p>Verstehen schafft Vertrauen.</p></div>
+
+    <div class="hero-brand-card">
+      <img src="assets/zahnklar-hero-logo.jpg"
+           alt="Zahnklar Logo mit Klaro und Nebencharakteren">
+    </div>
   </section>
 
-  <section class="trust"><span>Einfach erklärt</span><span>Verantwortungsvoll</span><span>Ohne Angstmacherei</span></section>
-
-  <section id="ueber" class="card split">
-    <div><p class="eyebrow">Über Zahnklar</p><h2>Komplexe Zahnmedizin verständlich machen</h2></div>
-    <div><p>Hinter Zahnklar steht ein in Deutschland ausgebildeter Zahnarzt. Ziel ist es, typische Fragen rund um Zahnarztbesuche, Behandlungen und Mundgesundheit nachvollziehbar einzuordnen.</p><p>Die Inhalte sollen Orientierung geben, Ängste abbauen und Gespräche in der Zahnarztpraxis besser verständlich machen.</p></div>
+  <section class="trust-strip" aria-label="Grundsätze von Zahnklar">
+    <span>Einfach erklärt</span>
+    <span>Verantwortungsvoll</span>
+    <span>Ohne Angstmacherei</span>
   </section>
 
-  <section class="card notice"><div class="notice-icon">ℹ️</div><div><p class="eyebrow">Wichtiger Hinweis</p><h2>Allgemeine Information statt Ferndiagnose</h2><p>Die Inhalte von Zahnklar dienen ausschließlich der allgemeinen Information und Aufklärung. Sie ersetzen keine individuelle zahnärztliche Untersuchung, Diagnose oder Behandlung.</p></div></section>
+  <section id="ueber" class="content-card split">
+    <div>
+      <p class="eyebrow">Über Zahnklar</p>
+      <h2>Komplexe Zahnmedizin verständlich machen</h2>
+    </div>
+    <div>
+      <p>
+        Hinter Zahnklar steht ein in Deutschland ausgebildeter Zahnarzt.
+        Ziel ist es, typische Fragen rund um Zahnarztbesuche, Behandlungen
+        und Mundgesundheit verständlich einzuordnen.
+      </p>
+      <p>
+        Die Inhalte sollen Orientierung geben, Ängste abbauen und dabei helfen,
+        Gespräche in der Zahnarztpraxis besser zu verstehen.
+      </p>
+    </div>
+  </section>
 
-  <section id="kanaele" class="card">
-    <p class="eyebrow">Social Media</p><h2>Zahnklar folgen</h2>
-    <p class="muted">Die direkten Profil-Links können später ergänzt werden. Bis dahin dient diese Seite bereits als zentrale Informations- und Impressumsseite.</p>
-    <div class="channels"><div><span>▶</span><strong>YouTube</strong><small>Ausführliche Erklärungen</small></div><div><span>◎</span><strong>Instagram</strong><small>Kurze Inhalte und Updates</small></div><div><span>♪</span><strong>TikTok</strong><small>Wissen im Kurzformat</small></div></div>
+  <section class="content-card notice-card">
+    <div class="notice-icon" aria-hidden="true">i</div>
+    <div>
+      <p class="eyebrow">Wichtiger Hinweis</p>
+      <h2>Allgemeine Information statt Ferndiagnose</h2>
+      <p>
+        Die Inhalte von Zahnklar dienen ausschließlich der allgemeinen Information
+        und Aufklärung. Sie ersetzen keine individuelle zahnärztliche Untersuchung,
+        Diagnose oder Behandlung.
+      </p>
+    </div>
+  </section>
+
+  <section id="kanaele" class="content-card">
+    <p class="eyebrow">Social Media</p>
+    <h2>Zahnklar folgen</h2>
+    <p class="section-intro">
+      Ausführliche Erklärungen, kurze Wissensformate und aktuelle Inhalte findest du
+      auf den Zahnklar-Kanälen.
+    </p>
+
+    <div class="social-grid">
+      <a class="social-card youtube"
+         href="https://youtube.com/@zahnklar-leichterklart"
+         target="_blank" rel="noopener noreferrer">
+        <span class="social-icon">▶</span>
+        <span><strong>YouTube</strong><small>Videos und ausführliche Erklärungen</small></span>
+      </a>
+
+      <a class="social-card instagram"
+         href="https://www.instagram.com/zahnklar_leichterklaert/"
+         target="_blank" rel="noopener noreferrer">
+        <span class="social-icon">◎</span>
+        <span><strong>Instagram</strong><small>Kurze Inhalte und Updates</small></span>
+      </a>
+
+      <a class="social-card tiktok"
+         href="https://www.tiktok.com/@zahnklar_leichterklaert"
+         target="_blank" rel="noopener noreferrer">
+        <span class="social-icon">♪</span>
+        <span><strong>TikTok</strong><small>Wissen im Kurzformat</small></span>
+      </a>
+    </div>
+  </section>
+
+  <section class="legal-links">
+    <a href="impressum.html"><strong>Impressum</strong><small>Pflichtangaben und Kontakt</small></a>
+    <a href="datenschutz.html"><strong>Datenschutz</strong><small>Informationen zur Datenverarbeitung</small></a>
   </section>
 </main>
-<footer><div><strong>Zahnklar</strong><p>Zahnmedizin verständlich erklärt.</p></div><nav><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a><a href="mailto:zahnklar-leichterklaert@web.de">Kontakt</a></nav><span>© <span id="year"></span> Zahnklar</span></footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+
+
+<footer class="site-footer">
+  <div>
+    <strong>Zahnklar</strong>
+    <p>Zahnmedizin verständlich, ruhig und ohne Angstmacherei erklärt.</p>
+  </div>
+  <div class="footer-links">
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <a href="mailto:zahnklar-leichterklaert@web.de">Kontakt</a>
+  </div>
+  <div class="footer-socials">
+    <a href="https://youtube.com/@zahnklar-leichterklart" target="_blank" rel="noopener noreferrer">YouTube</a>
+    <a href="https://www.instagram.com/zahnklar_leichterklaert/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.tiktok.com/@zahnklar_leichterklaert" target="_blank" rel="noopener noreferrer">TikTok</a>
+  </div>
+  <p class="copyright">© <span id="year"></span> Zahnklar</p>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  const menuButton = document.querySelector(".menu-button");
+  const nav = document.querySelector(".main-nav");
+  if (menuButton && nav) {
+    menuButton.addEventListener("click", () => {
+      const open = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", String(!open));
+      nav.classList.toggle("open");
+    });
+  }
+</script>
+
 </body>
 </html>

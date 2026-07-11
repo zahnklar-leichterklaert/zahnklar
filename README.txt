@@ -1,24 +1,25 @@
-ZAHNKLAR WEBSITE V2
+ZAHNKLAR WEBSITE – FINALE STARTVERSION
 
 Enthalten:
 - index.html
 - impressum.html
 - datenschutz.html
-- style.css
 - 404.html
+- style.css
+- assets/
+- README.txt
 
-So lädst du die neue Version hoch:
+UPLOAD AUF GITHUB
 1. ZIP-Datei entpacken.
-2. In GitHub im Repository auf "Code" gehen.
-3. "Add file" > "Upload files" wählen.
-4. Alle entpackten Einzeldateien hochladen.
-5. Unten auf "Commit changes" klicken.
-6. 1–3 Minuten warten und die Website neu laden.
+2. Im Repository auf Code > Add file > Upload files gehen.
+3. Alle Dateien und den Ordner assets hochladen.
+4. Commit changes anklicken.
+5. Etwa 1–3 Minuten warten.
+6. Website neu laden; falls nötig mit Cmd + Shift + R.
 
-Wichtig:
-- Nicht die ZIP-Datei selbst hochladen.
-- index.html, impressum.html und style.css ersetzen die alten Dateien.
-- datenschutz.html und 404.html werden neu ergänzt.
-- Die Social-Media-Karten enthalten noch keine direkten Profil-Links.
-- Die Website nutzt aktuell kein eigenes Tracking, keine Formulare und keine eingebetteten Videos.
-- Rechtstexte bei Änderungen der Website oder Tätigkeit erneut prüfen.
+WICHTIG
+- Die ZIP-Datei selbst nicht hochladen.
+- Beim Upload muss der Ordner assets erhalten bleiben.
+- Die Social-Media-Links sind bereits eingebaut.
+- Die Website nutzt keine eigenen Cookies, kein Tracking und keine externen Schriftarten.
+- Rechtstexte bei technischen oder geschäftlichen Änderungen erneut prüfen.

@@ -1,1 +1,69 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex"><title>Seite nicht gefunden | Zahnklar</title><link rel="stylesheet" href="style.css"></head><body><main><section class="card center"><p class="eyebrow">Fehler 404</p><h1>Diese Seite gibt es leider nicht.</h1><p class="lead">Vielleicht wurde der Link geändert oder falsch eingegeben.</p><a class="button primary" href="index.html">Zur Startseite</a></section></main></body></html>
+<!doctype html>
+<html lang="de">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#cfeeff">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="style.css">
+
+<meta name="robots" content="noindex">
+<title>Seite nicht gefunden | Zahnklar</title>
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Zahnklar Startseite">
+    <img src="assets/zahnklar-logo-header.jpg" alt="Zahnklar – Zahnmedizin leicht erklärt">
+  </a>
+  <button class="menu-button" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+  <nav class="main-nav" aria-label="Hauptnavigation">
+    <a href="index.html#ueber">Über Zahnklar</a>
+    <a href="index.html#kanaele">Kanäle</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+  </nav>
+</header>
+
+<main>
+  <section class="content-card error-card">
+    <p class="eyebrow">Fehler 404</p>
+    <h1>Diese Seite gibt es leider nicht.</h1>
+    <p class="lead">Vielleicht wurde der Link geändert oder falsch eingegeben.</p>
+    <a class="button primary" href="index.html">Zur Startseite</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <strong>Zahnklar</strong>
+    <p>Zahnmedizin verständlich, ruhig und ohne Angstmacherei erklärt.</p>
+  </div>
+  <div class="footer-links">
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <a href="mailto:zahnklar-leichterklaert@web.de">Kontakt</a>
+  </div>
+  <div class="footer-socials">
+    <a href="https://youtube.com/@zahnklar-leichterklart" target="_blank" rel="noopener noreferrer">YouTube</a>
+    <a href="https://www.instagram.com/zahnklar_leichterklaert/" target="_blank" rel="noopener noreferrer">Instagram</a>
+    <a href="https://www.tiktok.com/@zahnklar_leichterklaert" target="_blank" rel="noopener noreferrer">TikTok</a>
+  </div>
+  <p class="copyright">© <span id="year"></span> Zahnklar</p>
+</footer>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+  const menuButton = document.querySelector(".menu-button");
+  const nav = document.querySelector(".main-nav");
+  if (menuButton && nav) {
+    menuButton.addEventListener("click", () => {
+      const open = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", String(!open));
+      nav.classList.toggle("open");
+    });
+  }
+</script>
+
+</body>
+</html>
