@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zahnklar erklärt Zahnmedizin verständlich, ruhig und ohne Fachchinesisch.">
+  <title>Zahnklar – Zahnmedizin leicht erklärt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zahnklar Startseite">
+      <span class="brand-icon" aria-hidden="true">🦷</span>
+      <span>Zahnklar</span>
+    </a>
+    <nav aria-label="Hauptnavigation">
+      <a href="#ueber">Über Zahnklar</a>
+      <a href="impressum.html">Impressum</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Zahnmedizin leicht erklärt</p>
+        <h1>Verständlich. Beruhigend. Ohne Fachchinesisch.</h1>
+        <p class="lead">
+          Zahnklar erklärt Fragen rund um Zähne, Zahnarztbesuche und Mundgesundheit
+          mit einfachen Worten und freundlichen Illustrationen.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#links">Zu den Kanälen</a>
+          <a class="button secondary" href="impressum.html">Zum Impressum</a>
+        </div>
+      </div>
+
+      <div class="mascot-card" aria-label="Zahnklar Symbol">
+        <div class="tooth">🦷</div>
+        <p>Wissen nimmt Unsicherheit.</p>
+      </div>
+    </section>
+
+    <section id="ueber" class="content-section">
+      <p class="eyebrow">Über Zahnklar</p>
+      <h2>Allgemeine Aufklärung rund um Zahnmedizin</h2>
+      <p>
+        Die Inhalte von Zahnklar sollen helfen, Abläufe besser zu verstehen,
+        Ängste einzuordnen und typische Fragen rund um Mundgesundheit verständlich
+        zu beantworten.
+      </p>
+      <div class="notice">
+        Die Inhalte dienen der allgemeinen Information und ersetzen keine
+        individuelle zahnärztliche Beratung, Diagnose oder Behandlung.
+      </div>
+    </section>
+
+    <section id="links" class="content-section">
+      <p class="eyebrow">Social Media</p>
+      <h2>Zahnklar folgen</h2>
+      <p>
+        Trage hier später deine direkten Links zu YouTube, Instagram und TikTok ein.
+        Bis dahin kann diese Seite bereits als zentrale Impressumsseite genutzt werden.
+      </p>
+      <div class="social-grid">
+        <span class="social-card">YouTube</span>
+        <span class="social-card">Instagram</span>
+        <span class="social-card">TikTok</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Zahnklar</span>
+    <a href="impressum.html">Impressum</a>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
