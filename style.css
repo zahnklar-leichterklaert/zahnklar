@@ -147,3 +147,21 @@ h3{font-size:1.14rem}
   html{scroll-behavior:auto}
   .social-card{transition:none}
 }
+.language-note {
+  width: min(900px, calc(100% - 28px));
+  margin: 3rem auto 2rem;
+  padding: 1.15rem 1.5rem;
+  font-size: 0.95rem;
+  color: var(--muted, #61798a);
+  border-top: 1px solid var(--line, rgba(23, 54, 77, 0.13));
+}
+
+.language-note p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.language-note strong {
+  color: var(--blue-dark, #17364d);
+}
+
