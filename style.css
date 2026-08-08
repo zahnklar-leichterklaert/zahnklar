@@ -46,6 +46,9 @@ img{max-width:100%;display:block}
 .brand img{width:100%;height:58px;object-fit:cover;object-position:center;border-radius:14px}
 .main-nav{display:flex;gap:18px;flex-wrap:wrap}
 .main-nav a{font-weight:800;text-decoration:none;color:var(--blue-dark)}
+.language-switcher{display:inline-flex;align-items:center;gap:4px;margin-left:2px;padding:3px;border:1px solid var(--line);border-radius:11px;background:var(--bg-soft)}
+.language-switcher a{min-width:34px;padding:3px 7px;border-radius:8px;text-align:center;font-size:.86rem}
+.language-switcher a.active{background:var(--blue);color:#fff}
 .menu-button{display:none;border:0;background:transparent;font-size:1.6rem;color:var(--blue-dark)}
 
 main{width:min(var(--max),calc(100% - 28px));margin:0 auto}
@@ -66,6 +69,7 @@ h3{font-size:1.14rem}
 .secondary{background:#fff;color:var(--blue);border:1px solid var(--line)}
 .hero-brand-card{padding:14px;border-radius:30px;background:rgba(255,255,255,.96);box-shadow:var(--shadow);border:1px solid var(--line)}
 .hero-brand-card img{border-radius:20px;width:100%;aspect-ratio:3.45/1;object-fit:cover}
+.hero-brand-card.hero-wide img{aspect-ratio:16/9;object-position:center top}
 
 .trust-strip{
   margin-bottom:28px;padding:17px 22px;
@@ -82,6 +86,7 @@ h3{font-size:1.14rem}
 .notice-icon{display:grid;place-items:center;width:58px;height:58px;border-radius:18px;background:#fff0cf;color:var(--blue-dark);font-weight:900;font-size:1.5rem}
 .section-intro{max-width:760px;color:var(--muted)}
 .social-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.social-grid.single{grid-template-columns:minmax(260px,430px)}
 .social-card{
   min-height:150px;padding:22px;border-radius:22px;text-decoration:none;
   display:flex;align-items:flex-end;gap:16px;box-shadow:var(--shadow-small);
@@ -139,6 +144,7 @@ h3{font-size:1.14rem}
   .menu-button{display:block}
   .main-nav{display:none;position:absolute;left:0;right:0;top:74px;padding:16px;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
   .main-nav.open{display:flex}
+  .language-switcher{width:max-content;margin-left:0}
   .trust-strip,.social-grid,.legal-links{grid-template-columns:1fr}
   .notice-card{grid-template-columns:1fr}
   .hero{padding-top:52px}
@@ -164,4 +170,3 @@ h3{font-size:1.14rem}
 .language-note strong {
   color: var(--blue-dark, #17364d);
 }
-

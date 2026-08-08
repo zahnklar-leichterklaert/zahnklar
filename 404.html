@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
 
@@ -17,12 +17,16 @@
   <a class="brand" href="index.html" aria-label="Zahnklar Startseite">
     <img src="assets/zahnklar-logo-header.jpg" alt="Zahnklar – Zahnmedizin leicht erklärt">
   </a>
-  <button class="menu-button" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+  <button class="menu-button" type="button" aria-label="Menü öffnen" aria-expanded="false">☰</button>
   <nav class="main-nav" aria-label="Hauptnavigation">
     <a href="index.html#ueber">Über Zahnklar</a>
     <a href="index.html#kanaele">Kanäle</a>
     <a href="impressum.html">Impressum</a>
     <a href="datenschutz.html">Datenschutz</a>
+    <span class="language-switcher" role="group" aria-label="Sprache wählen">
+      <a class="active" href="index.html" lang="de">DE</a>
+      <a href="en/index.html" lang="en" hreflang="en">EN</a>
+    </span>
   </nav>
 </header>
 
@@ -52,18 +56,7 @@
   </div>
   <p class="copyright">© <span id="year"></span> Zahnklar</p>
 </footer>
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-  const menuButton = document.querySelector(".menu-button");
-  const nav = document.querySelector(".main-nav");
-  if (menuButton && nav) {
-    menuButton.addEventListener("click", () => {
-      const open = menuButton.getAttribute("aria-expanded") === "true";
-      menuButton.setAttribute("aria-expanded", String(!open));
-      nav.classList.toggle("open");
-    });
-  }
-</script>
+<script src="site.js"></script>
 
 </body>
 </html>
