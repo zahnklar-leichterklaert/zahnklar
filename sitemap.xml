@@ -1,32 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://zahnklar-leichterklaert.github.io/zahnklar/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://zahnklar-leichterklaert.github.io/zahnklar/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://zahnklar-leichterklaert.github.io/zahnklar/en/" />
-  </url>
-  <url>
-    <loc>https://zahnklar-leichterklaert.github.io/zahnklar/en/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://zahnklar-leichterklaert.github.io/zahnklar/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://zahnklar-leichterklaert.github.io/zahnklar/en/" />
-  </url>
-  <url>
-    <loc>https://zahnklar-leichterklaert.github.io/zahnklar/impressum.html</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://zahnklar-leichterklaert.github.io/zahnklar/datenschutz.html</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://zahnklar-leichterklaert.github.io/zahnklar/en/legal-notice.html</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
-  <url>
-    <loc>https://zahnklar-leichterklaert.github.io/zahnklar/en/privacy.html</loc>
-    <lastmod>2026-08-08</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://zahnklar-dentistry.com/</loc></url>
+<url><loc>https://zahnklar-dentistry.com/?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/fillings.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/fillings.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/root-canals.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/root-canals.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/crowns-bridges.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/crowns-bridges.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/gum-health.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/gum-health.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/bad-breath.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/bad-breath.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/whitening.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/whitening.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/about.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/about.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/resources.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/resources.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/free-resources.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/free-resources.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/videos.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/videos.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/behind-the-scenes.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/behind-the-scenes.html?lang=de</loc></url>
+<url><loc>https://zahnklar-dentistry.com/treatment-lab.html</loc></url>
+<url><loc>https://zahnklar-dentistry.com/treatment-lab.html?lang=de</loc></url>
 </urlset>
