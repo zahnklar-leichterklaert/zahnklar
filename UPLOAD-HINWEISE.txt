@@ -1,0 +1,24 @@
+ZAHNKLAR – TISCH-DESIGN
+
+Dieses Paket enthält die vollständige überarbeitete Website mit 18 Seiten.
+
+UPLOAD
+1. ZIP entpacken.
+2. Alle enthaltenen Website-Dateien UND den kompletten Ordner assets in die Wurzel des bestehenden GitHub-Repositories hochladen. Ordnerstruktur beibehalten.
+3. Die bestehenden Dateien CNAME und .nojekyll im Repository nicht löschen oder ändern.
+4. Nach dem GitHub-Pages-Deployment die Website neu laden.
+
+Die Datei UPLOAD-HINWEISE.txt muss nicht veröffentlicht werden.
+
+VORSCHAU
+index.html lässt sich lokal öffnen. Die Animation zwischen echten Unterseiten benötigt einen Webserver und einen Browser mit Cross-document View Transitions, etwa eine aktuelle unterstützte Chrome- oder Safari-Version. Ein normaler Seitenwechsel bleibt der Fallback. Es werden keine Klicks abgefangen oder künstliche Wartezeiten vor die Navigation gesetzt.
+Bei aktivierter Betriebssystem-Einstellung für reduzierte Bewegung entfällt die Kamerafahrt.
+
+UMFANG
+Schlanker erster Bildschirm, gemeinsame Tischszene, kompakte Navigation und eigene Learn-Übersicht. Bestehende Videos, Ressourcen, Inhalte, Newsletterbereich sowie Rechtstexte sind erhalten. Kein neuer externer Dienst und kein Tracking. Brevo-Konfiguration und bestehende Formularskripte sind unverändert. Keine Anmeldung oder personenbezogene Testübermittlung durchgeführt.
+
+PRÜFUNG
+18 Seiten auf 390 und 1440 Pixeln jeweils in DE/EN: 72 Prüfungen ohne JavaScript-Fehler, kaputte Bilder oder horizontalen Überlauf. Zusätzliche kleine 320-Pixel-Ansichten geprüft. Interne Links/Anker, Produktfilter, Impressumsdialog und native Hin-/Rücknavigation lokal geprüft. Keine erneute Rechtsprüfung oder vollständiger Live-Brevo-Test Bestandteil dieses Designupdates.
+
+NICHT AUTOMATISCH VERÖFFENTLICHT
+Das Paket ersetzt erst nach deinem Upload die bestehende Website.
