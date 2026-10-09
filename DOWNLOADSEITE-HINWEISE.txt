@@ -1,0 +1,29 @@
+Zahnklar – Downloadseite, lokal geprüft, NICHT VERÖFFENTLICHT
+
+Basis: aktueller GitHub-main-Stand f691813 (9. Oktober 2026).
+Alle bestehenden Dateien bleiben bytegleich; keine Änderungen an Newsletter oder Brevo.
+
+Neue Website-Dateien:
+free-treatment-sheet/download/index.html
+assets/resources/Zahnklar_Free_Treatment_Sheet_EN.pdf
+assets/resources/free-treatment-sheet-preview.webp
+
+Spätere Brevo-Zieladresse (erst nach Veröffentlichung nutzbar):
+https://zahnklar-dentistry.com/free-treatment-sheet/download/
+
+PDF: 1 Seite, A4 quer, Englisch, 530495 Bytes. Identisch zur bereitgestellten Datei.
+Download auf Desktop und Mobilansicht im lokalen Chromium geprüft.
+Legal Notice öffnet unverändertes englisches Impressum aus der aktuellen Website.
+Privacy Policy und Home liefern lokal HTTP 200.
+Keine externen Requests, Cookies, Storage-Einträge oder JavaScript-Fehler auf der neuen Seite.
+
+Die Seite benötigt keine Anmeldung und prüft keine Newsletter-Einwilligung.
+Direkte URL und PDF sind nach Veröffentlichung öffentlich erreichbar.
+noindex ist lediglich eine Suchmaschinen-Anweisung, keine Zugangssperre.
+Je nach Browser kann eine PDF auch im integrierten PDF-Betrachter geöffnet werden.
+
+Noch offen: Veröffentlichung und anschließende Prüfung der öffentlichen URLs; später separate Brevo-Zieladresse konfigurieren und Funnel testen. Brevo wurde nicht verändert.
+Die Freebie-Landingpage selbst war im GitHub-Stand noch nicht vorhanden; ihr vorheriger Entwurf wird durch dieses Paket nicht eigenständig veröffentlicht.
+
+Vollständiges Paket enthält den unveränderten aktuellen Repository-Inhalt plus die drei neuen Dateien. Das Ergänzungspaket enthält ausschließlich diese drei Dateien und kann später in den Repository-Hauptordner eingefügt werden.
+Nicht jetzt hochladen: ein Commit auf den Pages-Branch kann automatisch veröffentlichen.
