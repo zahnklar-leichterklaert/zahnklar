@@ -1,0 +1,46 @@
+ZAHNKLAR FREEBIE-FORMULAR – LOKAL GEPRÜFT, NICHT VERÖFFENTLICHT
+
+Basis: aktueller GitHub-main-Stand ef72df0.
+Neue Dateien:
+free-treatment-sheet/index.html
+free-treatment-sheet/assets/logo.webp
+free-treatment-sheet/assets/sample.webp
+free-treatment-sheet/assets/favicon.png
+Alle bisher vorhandenen Dateien sind unverändert. Downloadseite, PDF, allgemeines Newsletterformular und Datenschutzerklärungen wurden nicht verändert.
+Die Landingpage fehlte im GitHub-Stand; verwendet wurde der zuvor erstellte Zahnklar-Entwurf.
+
+INTEGRATION
+Nur das neu bereitgestellte Brevo-Formular. Markdown-Escapes wurden in gültiges HTML/JavaScript zurückgeführt.
+Feldattribute (name/id/value/required), POST-Ziel und Export-Konfiguration sind identisch zum normalisierten Export.
+CTA-Text: GET MY FREE TREATMENT SHEET.
+E-Mail ist Pflicht; OPT_IN ist freiwillig, leer, Wert 1 nur bei Auswahl.
+Kein versteckter Newsletter-Opt-in, keine Submit-Sperre bei leerer Checkbox.
+Zusätzliche Roboto-Webfonts aus Export weggelassen; vorhandene Zahnklar-Schriften verwendet.
+Brevo-CSS und -JavaScript werden erst nach Agree & load form geladen. Schließen lädt die Seite neu und setzt die Ladefreigabe zurück; kein gespeicherter Consent.
+CSP auf benötigte bestehende Brevo-Hosts begrenzt. Kein CAPTCHA, Video, Analytics oder neues Tracking.
+Keine direkte PDF-Verlinkung auf der Anforderungsseite.
+
+LOKALE PRÜFUNG
+Desktop 1440px / Mobil 390px: Formular sichtbar, keine horizontalen Überläufe, genau ein Formular, keine JavaScript-Fehler.
+Vor Ladefreigabe keine externen Requests.
+Nach Ladefreigabe: GET sibforms.com/forms/end-form/build/sib-styles.css und main.js.
+Absenden: POST an das gelieferte 0ba96c6b.sibforms.com/serve/-Ziel mit ?isAjax=1.
+Brevo-Assets wurden für reproduzierbare Tests lokal zwischengespeichert. Sämtliche Test-POSTs lokal abgefangen, keine Daten an Brevo übermittelt.
+Ohne Checkbox: EMAIL, email_address_check, locale=de. OPT_IN wird nicht übermittelt.
+Mit Checkbox: zusätzlich OPT_IN=1. Formular in beiden Zuständen lokal valide.
+Legal-Notice-Dialog funktioniert; Privacy-Link zeigt auf https://zahnklar-dentistry.com/privacy/.
+
+VOR ÖFFENTLICHEM START OFFEN
+1. Brevo: Freebie-Liste und Newsletter-Zielgruppe getrennt prüfen. Die DOI-Bestätigung des Freebies darf nicht als Newsletter-Einwilligung gewertet werden. Listenzuordnung, Segmentierung und Einwilligungsnachweis sind im Embed-Code nicht belegbar.
+2. Bestehende Kontakte prüfen: Bei leerer Checkbox fehlt OPT_IN im POST. Ob Brevo einen vorhandenen Attributwert beibehält, muss serverseitig getestet werden. Nicht eigenmächtig OPT_IN=0 setzen, da dies bestehende Einwilligungen verändern könnte.
+3. DOI-Ablauf mit und ohne Newsletter-Auswahl live prüfen: Bestätigungs-E-Mail, Weiterleitung nach Absenden, Downloadziel nach DOI, PDF unabhängig von Newsletter-Auswahl. Keine dieser Einstellungen wurde geändert.
+4. Privacy Policy / deutsche Datenschutzerklärung beschreiben derzeit das allgemeine Newsletterformular mit notwendiger Einwilligungscheckbox. Der getrennte Freebie-Zweck mit optionalem Newsletter muss vor Start zutreffend abgeglichen werden; Texte wurden auftragsgemäß nicht umgeschrieben.
+5. Im Export stehen locale=de und window.LOCALE='de'. Sichtbare Haupttexte sind Englisch; Brevo-Systemtexte, Fehlermeldungen und E-Mails im Live-Test auf Sprache prüfen. Parameter bleiben unverändert.
+6. Nach Deployment reale Requests, Cookies/Storage und Consent-Nachweise prüfen; lokale Tests ersetzen keinen vollständigen Brevo-End-to-End-Test.
+
+Spätere Landingpage: https://zahnklar-dentistry.com/free-treatment-sheet/
+Nach Absenden vorgesehen: https://zahnklar-dentistry.com/newsletter-check-email/
+Nach DOI vorgesehen: https://zahnklar-dentistry.com/free-treatment-sheet/download/
+Die Weiterleitungen werden in Brevo bestimmt, nicht in diesem Website-Code.
+
+Vollpaket: bestehender GitHub-Stand plus neue Landingpage. GitHub wurde nicht verändert. Commit/Upload in den Pages-Branch kann automatisch veröffentlichen; offene Punkte vorher klären.
